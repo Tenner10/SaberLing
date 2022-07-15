@@ -3,7 +3,7 @@ const { REST } = require("@discordjs/rest")
 const { Routes } = require("discord-api-types/v9")
 const fs = require("fs")
 const { Player } = require("discord-player")
-const config = require("./config.json")
+// const config = require("./config.json")
 
 const LOAD_SLASH = process.argv[2] == "load"
 
